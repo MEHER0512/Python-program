@@ -1,0 +1,15 @@
+#Program which accepts radius of circle and computes area
+
+import math
+r=eval(input("Input the radius of the CIRCLE:"))
+Area=(math.pi)*(r**2)
+print("Area of the circle with radius",r,"is : ",Area)
+
+
+
+#Program to accept a filename from the user and print the extension for that.
+
+file_name=str(input("Input the Filename: "))
+after_splitting=file_name.split('.')
+print("The extension of the file is :",after_splitting[-1])
+
